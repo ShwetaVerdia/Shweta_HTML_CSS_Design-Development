@@ -1,0 +1,51 @@
+#round{
+	background-color:  #99FFFF;
+	display:block;
+	margin: 15px;
+	padding: 15px;
+	border: 8px solid #0033FF;
+	border-radius: 10px;
+}
+
+#body{
+font-family: comic sans ms;
+color: #0033FF;
+text-align: justify;
+}
+
+h1{text-align: center;
+	font-size: 40px;
+}
+
+#news{
+	background: url(http://redbus2us.com/wp-content/uploads/2014/05/H4-Visa-EAD-Rules-to-work-in-USA-2014.png) no-repeat bottom left,
+	url(http://redbus2us.com/wp-content/uploads/2014/05/H4-Visa-proposed-rule-full-details-Federal-Register.png) no-repeat bottom right;
+	background-size: auto, auto;
+	margin: 5px 5px 70px 5px;
+	padding: 10px;
+	font-size:17pt;
+    height:330px;
+	border-radius: 15px;
+	text-shadow: 1px 1px 1px #FFFF33;
+	box-shadow: 10px 10px 20px #4B0082;
+	line-height:18px;
+	opacity: 0.7;
+	color: #3300FF;
+	background-color: #FFCCFF;
+}
+
+#pre{font-family: comic sans ms;}
+#myopinion{
+	padding: 15px 15px;;
+	margin: 7px 7px;
+	border-radius: 5px 80px;
+	font-size: 18pt;
+	border-color: #F08080;
+	text-shadow: 1px 1px 1px #FF0099;
+	box-shadow: 4px 3px 4px 3px #FF00FF;
+	height: 170px;
+	color: rgb(139, 0, 139);
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+

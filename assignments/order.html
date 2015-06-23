@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Assignment 1</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css" media = "screen" >
+</head>
+<body id="orderBody">
+<body class="para">
+<img src ="Images/logo.jpg" width ="150" height ="60" align="left">
+<header>
+<h1 class="head1">Order</h1>
+<h3 class="subhead"> 
+<nav>
+	 <ul id="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="new.html">New</a></li>
+	<li><a href="support.html">Support</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="jobs.html">Jobs</a></li>
+	<li><a href="multimedia.html">Multimedia</a></li>
+	</ul>
+	</nav>
+</h3>
+</header>
+<hr color="lawngreen" size="3" >
+   
+		<div align=left>
+		
+			<h3>Customer Information </h3>
+	
+		</div>
+		<section>
+			<form name="CustomerForm" method="POST" action="http://itu.lewebcafe.com/sen910/form.php">
+					<fieldset>
+					  <legend>Personal Information</legend>
+							<label for="name">First Name:</label>
+							<input type="text" name="FirstName" id="Fname" />
+					
+						<br>
+						<label for="name">Last Name:</label>
+							<input type="text" name="LastName" id="Lname" />
+						<br>
+						<label for="address">Street Address:</label>
+							<input type="text" name="Address" id="address" />
+						<br>
+						<label for="city">City:</label>
+							<input type="text" name="city" id="city" />
+						<br>
+						<label for="state">State:</label>
+							<input type="text" name="state" id="state" />
+						<br>
+						<label for="number">Zip:</label>
+							<input type="text" size="10" name="PhoneNumber" id="phoneno" />
+						<br>
+						<label for="number">Telephone Number:</label>
+							<input type="text" name="PhoneNumber" id="phoneno" />
+						<br>
+						<label for="email">Email:</label>
+							<input type="email" name="E-mailID" id="emailid" />
+						<br>
+						<label for="number">Credit Card Number:</label>
+							<input type="tel" name="cardNumber" id="cardNumber" maxlength="16"/>
+						<br>
+						<label for="list">Credit Card Type:</label>
+							<input list="creditcardtype" name="CreditcardType" />
+							 <datalist id="creditcardtype">
+							 <option value="Master">
+							 <option value="Visa">
+							 <option value="American Express">
+							 <option value="Discover">
+						</datalist>
+						<br>
+						<label for="calendar">Expiration Date:</label>
+							<input type="date" name="Date" id="cal" />
+						<br>
+						<label for="textarea">Comments:</label>
+						<textarea name="Comment" rows="2" wrap=physical>
+						</textarea>
+						</form> 
+					</section>
+					<br>
+					<section>
+					<form>
+  <table cellspacing="12">
+  <tr>
+  <th>Category</th>
+  <th>Description</th>
+  <th>Unit Price</th>
+  <th>Quantity</th>
+  <th>Total Price</th>
+  </tr>
+  <tr align=left>
+  <th rowspan=2>1</th>
+  <th>Pakoda</th>
+  <th>$3.99</th>
+  <th><input type=text></th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=left>
+  <th>Thandai</th>
+  <th>$4.99</th>
+  <th><input type=text></th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=right>
+  <th colspan=4>Subtotal $</th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=left>
+  <th rowspan=2>2</th>
+  <th>Daal baati Churma</th>
+  <th>$19.99</th>
+  <th><input type=text></th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=left>
+  <th>Makai Roti</th>
+  <th>$8.99</th>
+  <th><input type=text></th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=right>
+  <th colspan=4>Subotal $</th>
+  <th><input type=text></th>
+  </tr>
+  <tr align=right>
+  <th colspan=4>Total $</th>
+  <th><input type=text></th>
+   </table>
+  </form>
+</section>
+<section>
+<button type="submit" name="Button" value="Submit" style="background-color:#3333FF; color:white;font-family:comic sans ms;">Submit</button>
+<button type="reset" name="Button" value="Reset" style="background-color:#3333FF; color:white ;font-family:comic sans ms;">Reset</button>
+			
+</section>
+<footer>
+<h3 class ="hbottom">
+	<nav>
+	 <ul id="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="new.html">New</a></li>
+	<li><a href="support.html">Support</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="products.html">Products</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="jobs.html">Jobs</a></li>
+	<li><a href="multimedia.html">Multimedia</a></li>
+	</ul>
+	</nav>
+</h3>
+<hr color="chartreuse" size="3">
+<p>
+copyrights &copy Rajasthan's Delight Restaurant
+</p>
+</footer>
+</body>
+</html>
+							
+		

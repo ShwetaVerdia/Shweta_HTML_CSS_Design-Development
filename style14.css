@@ -1,0 +1,16 @@
+body{
+background-color: #7D0552;
+font-family:Palatino Linotype;
+color:white;
+}
+
+header h1{
+	text-align:center; 
+	font-size:25pt;
+}
+
+h2{
+text-align:center; 
+font-size:20pt;
+text-shadow: 1px 2px;
+}

@@ -1,0 +1,31 @@
+body{
+font-family:Georgia, serif;
+background-color:#C2B280;
+color:white;
+}
+
+#flex-container {
+display: -webkit-flex;
+display: flex;
+width: 100%
+flex-direction:column;
+justify-content:space-around;;
+align-items:center;
+align-content:stretch;
+}
+.flex-item {
+background-color:  #7D0552;
+transition-property: background, border-radius;
+transition-duration: 3s, 3s;
+-webkit-transition-duration: 3s, 3s;
+-webkit-transition-property: background, border-radius;
+transition-timing-function: ease-in;
+-webkit-transition-timing-function: ease-in;
+width:70%;
+margin: 20px;
+flex:1;
+}
+.flex-item:hover {
+background: #FF00FF;
+border-radius: 70%
+}

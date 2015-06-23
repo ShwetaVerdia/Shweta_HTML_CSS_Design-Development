@@ -1,0 +1,82 @@
+header {
+	background-image:url(http://www.margotbworldnews.com/wp-content/themes/twentythirteen/images/headers/star.png);
+	background-repeat: no-repeat;
+	font-family:Book Antiqua;
+	color:sienna;
+	font-size: 20px;
+	
+}
+#head0{
+text-decoration:underline;
+text-align:center;
+
+}
+#heada1{
+color:red;
+text-align:left;
+}
+#heada2{
+color:white;
+text-align:center;
+}
+#heada3{
+color:purple;
+text-align:right;
+}
+#heada4{
+color:black;
+text-align:left;
+}
+#heada5{
+color:blue;
+text-align:center;
+text-decoration:underline;
+}
+article{
+background-color:yellow;
+font-family:Book Antiqua;
+color:darkslateblue;
+font-size: 20px;}
+
+h2{color: red;
+text-align=left;
+}
+#act1{
+background-color:powderblue;
+}
+#act2{
+background-color:silver;
+}
+#act3{
+background-color:salmon;
+}
+#act4{
+background-color:lightpink;
+}
+#act5{
+background-color:yellowgreen;
+}
+img{
+padding:20px;
+border: 10px ridge fuchsia;
+height:120px;
+width: 120px;
+ }
+ #para3{
+ background-color:aquamarine;
+ }
+ 
+ .sarah{
+ color:chartreuse; 
+ font-size:20pt;
+ font-weight:bold
+}
+.jason{
+color:orangered; font-size:22pt;font-style: italic;;
+}
+#foot{
+text-align:center;
+font-size:14px;
+color:indigo;
+background-color:orange;
+}

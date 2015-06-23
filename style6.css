@@ -1,0 +1,53 @@
+#description1{
+	background-color:mediumturquoise; 
+	color:white;
+	font-family:comic sans ms;
+	font-size: 17px;
+	}
+.description2{
+	text-align:justify ; 
+	background-color:steelblue; 
+	color:black;
+	font-family:comic sans ms;
+	font-weight: bold;
+}
+
+h1{
+	text-align:center; 
+	color:darkslateblue;
+	background-color: mediumaquamarine; 
+	font-style: italic;
+	text-decoration:underline;
+	font-family:comic sans ms;
+	
+}
+
+h2{
+	color:steelblue;
+	font-size: 14pt;
+	font-family:comic sans ms;
+
+}
+body{
+	background-color:oldlace; 
+}
+
+a:link {color: #0000FF;
+	background-color: tomato;}
+	
+a:hover {color:#FF00FF ;
+		background-color: darkmagenta;}
+a:visited {color:#9ACD32;}
+a:active {color:#FF1493;}
+
+a{
+	font-family:verdana;
+	font-size: 16pt;
+}
+#footer {
+	color: steelblue; 
+	font-size: 16pt;
+	font-family: comic sans ms;
+	text-align:center;
+	}
+

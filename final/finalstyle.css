@@ -1,0 +1,279 @@
+body {
+	background-image:url("http://mauritiusattractions.com/slir/w364/content/images/mauritius-weather/mauritius-sunny-weather.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+	
+}
+#header{
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #A8FA1B),
+	color-stop(1, #FF7438)
+);
+background-image: -o-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -moz-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -webkit-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -ms-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: linear-gradient(to top, #A8FA1B 0%, #FF7438 100%);
+	border: 2px solid lime;
+	border-radius: 10px 20px 0px 0px;
+	box-shadow: 15px 15px 15px 20px #F75D59;
+}
+
+#header h1 {
+	padding: 20px;
+	font-family: Courier New;
+	font-size: xx-large;
+	color:#FF6600 ;
+	margin: 0;
+	background-image:url("http://newsroom.aaa.com/wp-content/uploads/2012/03/SummerTravel.jpg");
+	background-repeat: no-repeat;
+	background-size: 180px 100%;
+	border-radius: 10px 0px 0px 0px;
+	background-position:top left;
+	text-shadow: 3px 2px #57E964;
+}
+
+#message {
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #F719FF),
+	color-stop(1, #FF5291),
+	color-stop(1, #E80C29)
+);
+background-image: -o-linear-gradient(bottom, #F719FF 0%, #FF5291 100%, #E80C29 100%);
+background-image: -moz-linear-gradient(bottom, #F719FF 0%, #FF5291 100%, #E80C29 100%);
+background-image: -webkit-linear-gradient(bottom, #F719FF 0%, #FF5291 100%, #E80C29 100%);
+background-image: -ms-linear-gradient(bottom, #F719FF 0%, #FF5291 100%, #E80C29 100%);
+background-image: linear-gradient(to bottom, #F719FF 0%, #FF5291 100%, #E80C29 100%);
+	padding: 10px;
+	margin: 0;
+	font-size: xx-large;
+	color: blue;
+	text-align: center;
+	text-shadow: 2px 2px #00ff00;
+	box-shadow: 2px 2px #8AFB17;
+}
+
+#content{
+	float: left;
+	width: 70%;
+	color: pink;
+	line-height: 1.5em;
+	-webkit-transition-property: background;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 0s;
+}
+
+#content h1{
+margin-bottom: 1em;
+font-family:Lucida Sans Unicode;
+font-size:170%;
+color:black;
+}
+#content .gutter{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	border: 2px solid blue;
+    background-color: white;
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px 5px yellow;
+}
+
+#content:hover {
+	background: grey;
+	border-radius: 50%;
+}
+.dotted{
+border: 5px dotted #FFD801;
+color:#E4287C;
+font-size:120%;}
+
+#bold1{
+color:black;
+font-weight:bold;}
+#bold2{
+color:#C11B17;
+font-weight:bold;}
+#bold3{
+color:#E238EC;
+font-weight:bold;}
+#bold_last{
+font-size:18pt;
+}
+
+.feature{
+}
+
+dl.feature{
+padding: 2px 2px;
+margin-top:10px;
+margin-bottom:2px;
+border-top:3px dashed #42ED39;
+}
+
+dl.feature dt{
+margin-bottom:.5em;
+font-size:140%;
+font-family:comic sans ms;
+color:red;
+text-shadow: 1px 1px;
+}
+
+.feature dt img {
+	float: left;
+	margin-right: 7px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 3px ridge red;
+	width: 120px;
+	height: 120px;
+}
+dd {
+	font-family: verdana;
+	color:#4B0082;
+	font-size:11pt;
+	line-height: 1.5em;
+}
+dl.feature:hover {
+	color:brown;
+	background-color:rgb(204, 204, 255);
+	opacity: 1;
+}
+
+dl.feature:focus{
+color:#7F525D;
+background-color:rgb(0, 255, 255)
+opacity:1;
+}
+
+.alternate dt img {
+	float: right;
+	border: 3px ridge grey;
+	width: 120px;
+	height: 120px;
+}
+
+dl.alternate dd {
+	font-family: comic sans ms;
+	
+}
+dl.alternate dt{
+margin-bottom:.5em;
+font-size:140%;
+font-family:comic sans ms;
+color:Magenta;
+text-shadow: 1px 1px 1px;
+}
+dl.alternate:hover {
+	color:#3399FF; 
+	background-color:rgb(204, 255, 255);
+	opacity: 1;
+}
+dl.alternate:focus{
+color:#F9F0FC;
+background-color:rgb(153, 0, 204)
+opacity:1;
+}
+
+a:link { 
+color:orange;
+}
+
+a:visited { 
+color:blue;
+ }
+ .sidebar {
+	float: right;
+	width: 30%;
+}
+ .box{
+ margin-right:0;
+ padding-bottom:10px;
+ line-height:1.5em;
+ font-size:85%;
+ background-color:#FFE6FF;
+ box-shadow: 3px 3px 3px #FF94DB;
+ border:2px solid #CC00FF;
+ border-radius: 15px 0px 15px 0px;
+ color:#CC00FF;
+ margin-left: 10px;
+margin-bottom: 10px;
+margin-top:10px;
+ }
+ 
+ .box h2 {
+	padding:5px;
+	margin: 0;
+	font-size: 170%;
+	font-family: arial;
+	color: #736AFF;
+}
+
+.box p{
+font-size:140%;
+padding-left:10px;
+padding-right:10px;
+}
+
+.box ul {
+	padding-left: 20px;
+	padding-right: 10px;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+.box ul li {
+	padding-left: 25px;
+	margin-left: 10px;
+	background-image: url('http://dna.brc.riken.jp/images/sq_purple.png');
+	background-repeat: no-repeat;
+	background-position:0 3px; 
+}
+
+.box:hover {
+	color:yellow;
+	background-color:white ;
+	opacity: 1;
+}
+
+.box:focus {
+	color:orange;	
+	background-color: white;
+	opacity: 1;
+}
+
+#bottom{
+clear:both;
+	margin: 0;
+	padding: 15px;
+	border: 3px solid #FFA62F;
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #A8FA1B),
+	color-stop(1, #FF7438)
+);
+background-image: -o-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -moz-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -webkit-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: -ms-linear-gradient(top, #A8FA1B 0%, #FF7438 100%);
+background-image: linear-gradient(to top, #A8FA1B 0%, #FF7438 100%);
+	border: 2px solid lime;
+	border-radius: 0px 0px 20px 20px;
+	box-shadow: 15px 15px 15px 20px #F75D59;
+
+font-size:90%;
+color:white;
+
+}

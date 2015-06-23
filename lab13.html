@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lab13 - Forms</title>
+        <meta charset="uTF-8">
+		<style type="text/css">
+			body {
+				font-family: "Lucida Sans Unicode";
+				font-size: 16px;
+				color: #005C5C;
+				margin: 0px;
+				background:#D6EBE0;
+			}
+			fieldset{border: 3px solid #005C5C;width: 800px;margin:auto;}
+			button { position:relative;left: 222px;bottom: 20px;height: 30px;width:90px;}
+			label{float: left;clear: left;width: 120px;text-align: left;padding: 5px;}
+			input,textarea{float: left; padding: 2px; width: 180px;}
+			
+		</style>
+    </head>
+    <body>
+		<div align=center>
+		<header>
+			<h1>Membership Form </h1>
+		</header>
+		</div>
+		<section>
+			<form name="MembershipForm" method="POST" action="http://itu.lewebcafe.com/sen910/form.php">
+					<fieldset>
+					  <legend>Personal Information</legend>
+							<label for="name">Name:</label>
+							<input type="text" name="Name" id="name" />
+					
+						<br>
+						<label for="address">Address:</label>
+							<input type="text" name="Address" id="address" />
+						<br>
+						
+						<label for="email">Email:</label>
+							<input type="email" name="E-mailID" id="emailid" />
+						<br>
+						
+						<label for="number">Phone:</label>
+							<input type="tel" name="PhoneNumber" id="phoneno" />
+						</fieldset>
+						<br>
+						<fieldset>
+					  <legend>Other Information</legend>
+							
+						<label for="website">Website:</label>
+							<input type="url" name="WebsiteURL" id="website" />
+						<br>
+						
+						<label for="color">Color:</label>
+							<input type="color" name="FavoriteColor" id="color" value="#005C5C" />
+						<br>
+						
+						<label for="list">DataList:</label>
+							<input list="membership" name="MembershipType" />
+							 <datalist id="membership">
+							 <option value="Bronze">
+							 <option value="Silver">
+							 <option value="Gold">
+							 <option value="Platinum">
+						</datalist>
+						<br>
+						
+						<label for="calendar">Calendar:</label>
+							<input type="date" name="Date" id="cal" />
+						<br>
+						<label for="textarea">Comments:</label>
+						<textarea name="Comment" rows="4" wrap=physical>
+
+						</textarea>
+						</fieldset>	
+						<br>
+						<button type="submit" name="Button" value="Submit"
+						style="background-color:#005C5C; color:white;">Submit</button>
+						<button type="reset" name="Button" value="Reset"
+						style="background-color:#005C5C; color:white;">Reset</button>
+						</form> 
+					</section>
+			
+		</body>
+</html>
+							
+		

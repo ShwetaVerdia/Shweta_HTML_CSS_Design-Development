@@ -1,0 +1,29 @@
+body{
+font-family:comic sans ms;
+background-color:#92C7C7;
+color:white;
+}
+
+#ath1{
+font-size:14pt;
+
+}
+#ath1 p:first-child:first-letter{
+	color: pink;
+	font-size:28px;
+}
+
+#ath1 p:nth-child(2){
+	background-color:#4CC552;
+}
+#ath2  li:first-child{
+color:#F87431;
+}
+
+#ath2 li:last-child{
+font-size:22pt;
+border-bottom:2px dotted red;}
+
+#ath2 li:nth-child(3){
+font-weight:bold;
+color:blue;}
